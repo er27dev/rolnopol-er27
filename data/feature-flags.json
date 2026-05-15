@@ -3,6 +3,7 @@
     "alertsEnabled": true,
     "alertsSeverityFilterEnabled": true,
     "alertsAiAssistantEnabled": false,
+    "celebrationEventsEnabled": false,
     "profileAvatarUploadEnabled": false,
     "rolnopolMapEnabled": true,
     "docsSearchEnabled": false,
@@ -37,5 +38,34 @@
     "rolnopolFarmlogEnabled": false,
     "rolnopolFarmlogEngagementEnabled": false
   },
-  "updatedAt": "2026-05-08T09:15:09.100Z"
+  "experimentalFlags": [
+    "homeStatsSectionEnabled",
+    "homeModernRestyleEnabled",
+    "profileAvatarUploadEnabled",
+    "docsSearchEnabled",
+    "docsAdvancedSearchEnabled",
+    "docsAiAssistantEnabled",
+    "alertsAiAssistantEnabled",
+    "celebrationEventsEnabled",
+    "profileAvatarUploadEnabled",
+    "registrationStrongPasswordEnabled",
+    "financialCommoditiesEnabled",
+    "financialCommoditiesTradingEnabled",
+    "prometheusMetricsEnabled",
+    "messengerEnabled",
+    "assistantChatEnabled",
+    "notificationCenterEnabled",
+    "weatherUserInsightsEnabled",
+    "weatherTrendChartEnabled",
+    "personalApiKeysEnabled",
+    "integrationsWebhooksEnabled",
+    "promoAdvertsHomeEnabled",
+    "promoAdvertsAlertsEnabled",
+    "promoAdvertsGeneralAdEnabled",
+    "promoAdvertsBottomBannerEnabled",
+    "petBuddyEnabled",
+    "rolnopolFarmlogEnabled",
+    "rolnopolFarmlogEngagementEnabled"
+  ],
+  "updatedAt": "2026-05-15T08:48:50.469Z"
 }
