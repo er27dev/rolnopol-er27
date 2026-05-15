@@ -25,6 +25,10 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Get version
+        id: version
+        run: echo "VERSION=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+
       - name: Build and push
         uses: docker/build-push-action@v6
         with:
@@ -32,4 +36,5 @@ jobs:
           push: true
           tags: |
             ghcr.io/er27dev/rolnopol-er27:latest
+            ghcr.io/er27dev/rolnopol-er27:${{ steps.version.outputs.VERSION }}
             ghcr.io/er27dev/rolnopol-er27:${{ github.sha }}
